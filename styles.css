@@ -169,3 +169,25 @@ ul li::before {
         padding: 20px 15px;
     }
 }
+
+/* Estilo do footer */
+.footer {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #d32f2f; /* Cor de fundo do footer */
+    color: #ffffff; /* Cor do texto */
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .footer {
+        font-size: 0.8rem; /* Ajusta o tamanho do texto para telas menores */
+        padding: 10px 0;
+    }
+}
