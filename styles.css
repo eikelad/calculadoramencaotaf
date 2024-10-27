@@ -1,4 +1,4 @@
-/* Estilo geral */
+
 *,
 *::before,
 *::after {
@@ -119,10 +119,10 @@ ul li {
 }
 
 ul li:last-child {
-    border-bottom: none; /* Remove a borda do último item */
+    border-bottom: none; 
 }
 
-/* Estilo para bullets personalizados */
+
 ul li::before {
     content: "•";
     color: #d32f2f;
@@ -131,7 +131,7 @@ ul li::before {
     margin-right: 10px;
 }
 
-/* Personalização da barra de rolagem */
+/
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -150,7 +150,7 @@ ul li::before {
     background-color: #b71c1c;
 }
 
-/* Responsividade para telas pequenas */
+
 @media (max-width: 768px) {
     h1 {
         font-size: 1.6rem;
@@ -170,12 +170,12 @@ ul li::before {
     }
 }
 
-/* Estilo do footer */
+
 .footer {
     width: 100%;
     padding: 15px 0;
-    background-color: #d32f2f; /* Cor de fundo do footer */
-    color: #ffffff; /* Cor do texto */
+    background-color: #d32f2f; 
+    color: #ffffff; 
     text-align: center;
     font-size: 0.9rem;
     font-weight: bold;
@@ -187,7 +187,7 @@ ul li::before {
 
 @media (max-width: 768px) {
     .footer {
-        font-size: 0.8rem; /* Ajusta o tamanho do texto para telas menores */
+        font-size: 0.8rem; 
         padding: 10px 0;
     }
 }
