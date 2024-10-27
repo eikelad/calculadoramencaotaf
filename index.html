@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Menção TAF CBMGO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo de Menção - TAF CBMGO</h1>
+        
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" required>
+            <option value="" disabled selected>Selecione o sexo</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select>
+
+        <label for="faixaEtaria">Faixa Etária:</label>
+        <select id="faixaEtaria" required>
+            <option value="" disabled selected>Selecione a faixa etária</option>
+            <option value="25">Até 25 anos</option>
+            <option value="26-29">26 a 29 anos</option>
+            <option value="30-33">30 a 33 anos</option>
+            <option value="34-37">34 a 37 anos</option>
+            <option value="38-41">38 a 41 anos</option>
+            <option value="42-45">42 a 45 anos</option>
+            <option value="46-49">46 a 49 anos</option>
+            <option value="50-53">50 a 53 anos</option>
+           
+        </select>
+
+        <label for="corrida">Corrida (m):</label>
+        <input type="number" id="corrida" placeholder="Digite a distância em metros" required>
+
+        <label for="barra">Barra/Isometria (rep ou seg):</label>
+        <input type="number" id="barra" placeholder="Digite a repetição ou segundos" required>
+
+        <label for="abdominal">Abdominal (rep):</label>
+        <input type="number" id="abdominal" placeholder="Digite a repetição" required>
+
+        <label for="flexao">Flexão de Braços (rep):</label>
+        <input type="number" id="flexao" placeholder="Digite a repetição" required>
+
+        <button onclick="calcularMencao()">Calcular Menção</button>
+
+        <div class="result" id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
